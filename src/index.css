@@ -1,0 +1,85 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Press+Start+2P&family=Zain:wght@200;300;400;700;800;900&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  direction: rtl;
+  font-family: var(--Primary-fontfamily);
+  overflow-x: hidden;
+}
+
+
+.main_container {
+  margin: 0 auto;
+  width: 100%;
+  padding: 2rem;
+}
+
+a{
+  text-decoration: none;
+}
+
+ul{
+  list-style: none;
+}
+
+:root{
+  /* 
+    ======================
+          Colors
+    ======================
+  */
+  --gold-color:#fcb900;;
+  --black-color: #1b1b1b;
+  --primary_color:#E7F0DC;
+  --secondary_color:#597445;
+  --green_color:#658147;
+  --subGreen_color:#729762;
+  --white-color: #fff;
+  --red_color:#cf2e2e;
+  
+
+  /* 
+    ======================
+          Fonts
+    ======================
+  */
+
+  --Primary-fontfamily:"Zain", sans-serif;
+
+}
+
+
+@media (min-width: 640px) {
+  .main_container {
+      max-width: 640px;
+  }
+}
+@media (min-width: 768px) {
+  .main_container {
+      max-width: 768px;
+  }
+}
+@media (min-width: 1024px) {
+  .main_container {
+      max-width: 1024px;
+  }
+}
+@media (min-width: 1280px) {
+  .main_container {
+      max-width: 1280px;
+  }
+}
+@media (min-width: 1536px) {
+  .main_container {
+      max-width: 1536px;
+  }
+}
+@media (min-width: 1800px) {
+  .main_container {
+      max-width: 80%;
+  }
+}

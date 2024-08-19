@@ -1,0 +1,30 @@
+.TenHours{
+    margin-top: 105px;
+    background-color: var(--primary_color);
+    width: 100%;
+}
+.ten_hours_sub_title{
+    /* color: var(--white-color); */
+    color: var(--subGreen_color);
+}
+.TenHours .camera_icon svg{
+    font-size: 30px;
+    /* color: var(--gold-color); */
+    color: var(--subGreen_color);
+}
+.TenHours .left_line,.TenHours .right_line{
+    width: 300px;
+    height: 1px;
+    /* background-color: var(--gold-color); */
+    background-color: var(--green_color);
+}
+.TenHours .photography_list h3{
+    /* color: var(--white-color); */
+    color: var(--green_color);
+}
+.TenHours .photography_list .choices_list li{
+    
+    color: rgb(51, 50, 50);
+
+    
+}

@@ -1,0 +1,57 @@
+.ExtraService{
+    margin-top: 105px;
+}
+.table-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  table {
+    width: 70%;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+  }
+  
+  th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+  }
+
+
+  /* 
+  
+    =========================
+        Important info
+  =============================
+  
+  */
+  .important_info{
+    margin-top: 100px;
+    background-color: var(--primary_color);
+    padding: 30px 10px;
+  }
+
+  .important_info .section_header .title_header{
+    font-size: 30px;
+  }
+
+  .ten_hours_sub_title{
+    color: var(--white-color);
+}
+.important_info .camera_icon svg{
+    font-size: 30px;
+    color: var(--subGreen_color);
+}
+.important_info .left_line,.important_info .right_line{
+    width: 300px;
+    height: 1px;
+    background-color: var(--secondary_color);
+}
+.important_info .photography_list h3{
+    color: var(--white-color);
+}
+.important_info .photography_list .choices_list li{
+    color: var(--secondary_color);
+}
