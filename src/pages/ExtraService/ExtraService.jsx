@@ -6,25 +6,14 @@ import "./ExtraService.css";
 const ExtraService = () => {
   const services = [
     {
-      price: "6500 ريال",
-      service: "فيديو كرين سينمائي (الرافعة) لتغطية الحفل مدة 8 ساعات متواصلة",
+      price: "3,000 درهم",
+      service: "فيديو عرض تشويقي ينعرض قبل زفة العروس",
     },
     {
-      price: "2500 ريال",
-      service: "فيديو شتوفي يعرض قبل الزفة + شاشة عرض 3 متر + جهاز بروجكتر",
+      price: "1,000 درهم",
+      service: "تفطية الزواج بالجوال تغطية احترافية خاص للعروس واستلامه بنفس اليوم",
     },
-    {
-      price: "1500 ريال",
-      service:
-        "تصوير فيديو جوي باستخدام الدرون لبعض المقاطع للقاعة والزفة الاولى",
-    },
-    {
-      price: "1000 ريال",
-      service: "تصوير القاعة فيديو ومونتاج خاص للقاعة وتفاصيلها",
-    },
-    { price: "1000 ريال", service: "شاشة الكترونية لعرض الفيديوهات" },
-    { price: "700 ريال", service: "توفير كشف متابعة بالقاعه للزفة" },
-    { price: "300 ريال", service: "توفير مايكات لتصوير الفستان" },
+    
   ];
 
   const tableRef = React.useRef(null);
@@ -132,11 +121,16 @@ const ExtraService = () => {
             initial="hidden"
             animate={isListInView ? "visible" : "hidden"}
           >
-            <motion.li variants={listItemVariants}>تسليم 6 فيديوهات بمونتاج خاص لكل فيديو</motion.li>
-            <motion.li variants={listItemVariants}>ألبوم حراري كبير يحتوي على 70 صورة معالجة.</motion.li>
-            <motion.li variants={listItemVariants}>ألبوم حراري صغير يحتوي على 35 صورة معالجة.</motion.li>
-            <motion.li variants={listItemVariants}>لوحة حائط خشبية مقاس 30×40.</motion.li>
-            <motion.li variants={listItemVariants}>لوحة حائط خشبية مقاس 30×40.</motion.li>
+            <motion.li variants={listItemVariants}>- لتأكيد الحجز يتم تحويل عربون بقيمة 1000 درهم</motion.li>
+            <motion.li variants={listItemVariants}>- العربون غير قابل لللإسترجاع لأي ظرف كان ولكن من الممكن تبديل اليوم بيوم مناسب خلال سنة واحدة على حسب توفر التاريخ</motion.li>
+            <motion.li variants={listItemVariants}>- يسلم المبلغ المتبقي (تحويل بنكي) قبل المناسبة ب 24 ساعة</motion.li>
+            <motion.li variants={listItemVariants}>- ساعات التصوير متواصلة يتم تحديدة من قببل العروس</motion.li>
+            <motion.li variants={listItemVariants}>- عند الرغبة بإضافة ساعات إضافية قيمة كل ساعة إضافية 500 درهم</motion.li>
+            <motion.li variants={listItemVariants}>- التصوير خارج دبي إضافة مبلغ 500 درهم لجميع الإمارات ما عدا المنطقة الغربية إضافة 900 درهم</motion.li>
+            <motion.li variants={listItemVariants}>- يتم ارسال جميع الصور عبر غوغل درايف لاختيار الصور المراد طباعتها من قبل العروس بعد المناسبةخلال 10 أيام</motion.li>
+            <motion.li variants={listItemVariants}>- يتم تسليم الألبومات والفيديو معا خلال مده أقصاها 2-3أشهر بعد اختيار الصور وإرسالها</motion.li>
+            <motion.li variants={listItemVariants}>- يتم اختيار لون الألبوم والخامات من قبل العروس</motion.li>
+            <motion.li variants={listItemVariants}>- طباعة الألبومات يتم داخل المعمل الخاص بنا وتحت إشراف المصورة آسيا وطاقم نسائي 100%</motion.li>
           </motion.ul>
         </div>
       </div>

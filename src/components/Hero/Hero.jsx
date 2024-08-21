@@ -3,13 +3,13 @@ import "./Hero.css";
 
 function Hero() {
   return (
-    <div className="hero">
+    <div className="hero" id="home">
       <div className="overlay"></div>
       <div className="logo">آسيا البركاتي</div>
       <div className="hero_text">
-        شركة متخصّصة بتصوير الأعراس والمناسبات بخبرة أكثر من ١٠ سنوات لأن كل
-        التفاصيل مُهمّة وكل لحظة فيها حكاية نحرص على توثيق مشاعِركم بأجمل
-        اللقطات العفوية
+        شركة متخصصة في تصوير الزواجات والمناسبات بخبرة أكثر من 10 سنوات نحن لا
+        نلتقط لقطات مجرّدة بل نصنع من كُل لحظة جميلة لقطة مليئة بالمشاعر لتعيش
+        معكم للأبد 
       </div>
       {/* <div className="linksicon">
         <FaLink />

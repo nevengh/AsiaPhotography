@@ -1,7 +1,8 @@
-.hero{
+.hero
+{
     margin-top: 100px;
     width: 100%;
-    height: 100vh;
+    height: 80vh;
     
     background-image: url(../../assets/images/hero.jpg);
     background-position: center;
@@ -9,18 +10,19 @@
     background-size: cover;
     background-attachment: fixed;
     position: relative;
+    background-attachment: scroll;
     
 }
-.hero::before{
+.hero::before
+{
     content: '';
     position: absolute;
-    
     width: 100%;
     height: 100%;
-    
-    background: #658147a1;
+    background: #2a4b077e;
 }
-.hero .logo {
+.hero .logo 
+{
     margin-top: 40px;
     font-weight: 700;
     font-size: 50px;
@@ -30,13 +32,14 @@
     left: 50%;
     z-index: 6;
     transform: translate(-50%,-50%);
-    
 }
-.hero .hero_text{
-    width: 50%;
+.hero .hero_text
+{
+    width: 55%;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
     text-align: center;
     color: var(--primary_color);
-    font-size: 25px;
+    font-size: 30px;
     font-weight: 700;
     line-height: 40px;
     position: absolute;
@@ -45,14 +48,27 @@
     transform: translate(-50%,-50%);
     z-index: 6;
 }
-/* .linksicon svg{
-    font-size: 35px;
-    color: #FFDE4D;
-    cursor: pointer;
-} */
 
-@media(max-width:520px){
-   
+
+@media(max-width:725px){
+    .hero .hero_text
+{
+    width: 80%;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+    text-align: center;
+    color: var(--primary_color);
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 40px;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 6;
+}
+}
+@media(max-width:520px)
+{
     .hero .hero_text{
         width: 80%;
         text-align: center;

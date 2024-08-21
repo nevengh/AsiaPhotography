@@ -27,23 +27,44 @@ function Header() {
         </div>
         <div className={`nav_item ${active === "six_hour" ? "active" : ""}`}>
           <a href="#six_hour" onClick={() => handleSetActive("six_hour")}>
-            باقة 6 ساعات
+            باقة كلاسيكية
           </a>
         </div>
         <div className={`nav_item ${active === "ten_hour" ? "active" : ""}`}>
           <a href="#ten_hour" onClick={() => handleSetActive("ten_hour")}>
-            باقة 10 ساعات
+            باقة برونزية
+          </a>
+        </div>
+        <div className={`nav_item ${active === "silver_hour" ? "active" : ""}`}>
+          <a href="#silver_hour" onClick={() => handleSetActive("silver_hour")}>
+            باقة فضية
+          </a>
+        </div>
+        <div className={`nav_item ${active === "Gold_hour" ? "active" : ""}`}>
+          <a href="#Gold_hour" onClick={() => handleSetActive("Gold_hour")}>
+            باقة ذهبية
           </a>
         </div>
         <div className="nav_logo">آسيا البركاتي</div>
+        
+        <div className={`nav_item ${active === "Dimond_hour" ? "active" : ""}`}>
+          <a href="#Dimond_hour" onClick={() => handleSetActive("Dimond_hour")}>
+            باقة ألماسية
+          </a>
+        </div>
+        <div className={`nav_item ${active === "Vip_hour" ? "active" : ""}`}>
+          <a href="#Vip_hour" onClick={() => handleSetActive("Vip_hour")}>
+            باقة VIP
+          </a>
+        </div>
         <div className={`nav_item ${active === "additions" ? "active" : ""}`}>
           <a href="#additions" onClick={() => handleSetActive("additions")}>
             الإضافات
           </a>
         </div>
-        <div className={`nav_item ${active === "videos" ? "active" : ""}`}>
-          <a href="#videos" onClick={() => handleSetActive("videos")}>
-            فيديوهات قد تهمك
+        <div className={`nav_item ${active === "Gold_hour" ? "active" : ""}`}>
+          <a href="#Gold_hour" onClick={() => handleSetActive("Gold_hour")}>
+            الألبومات
           </a>
         </div>
         <div className={`nav_item ${active === "contact" ? "active" : ""}`}>

@@ -52,6 +52,7 @@
 .important_info .photography_list h3{
     color: var(--white-color);
 }
+
 .important_info .photography_list .choices_list li{
-    color: var(--secondary_color);
+    color: var(--black-color);
 }
