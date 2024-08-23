@@ -1,8 +1,12 @@
 
 import './App.css'
+import CustomerOpinions from './components/CustomerOpinions/CustomerOpinions'
 import Footer from './components/Footer/Footer'
 import Header from './components/Header/Header'
 import Hero from './components/Hero/Hero'
+
+import AlbumPhotos from './pages/AlbumPhotos/AlbumPhotos'
+
 import DimondPackage from './pages/DimondPackage/DimondPackage'
 // import ContactUs from './pages/ContactUs/ContactUs'
 import ExtraService from './pages/ExtraService/ExtraService'
@@ -25,6 +29,13 @@ const App = () => {
         <VIP/>
         <ExtraService/>
         {/* <ContactUs/> */}
+
+        <AlbumPhotos/>
+        <CustomerOpinions/>
+
+
+
+
         <Footer/>
       </div>
     </>
