@@ -1,4 +1,5 @@
-import React from 'react'
+/* eslint-disable react/prop-types */
+
 import MainImage from './../../assets/images/MainPhoto.webp'
 
 

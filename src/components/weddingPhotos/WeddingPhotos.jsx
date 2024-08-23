@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import  { useState } from 'react'
 import { Carousel } from 'react-bootstrap'
 import PhotoAlbum from '../PhotoAlbum/PhotoAlbum';
 import img1 from './../../assets/images/WeddingPhotos/5924998618983547123.webp';

@@ -1,4 +1,4 @@
-// import React from 'react'
+
 import './AlbumPhotos.css'
 import SliderImages_jewelry from '../../components/SliderImages_jewelry/SliderImages_jewelry'
 import BrideSlider from '../../components/BrideSlider/BrideSlider'
