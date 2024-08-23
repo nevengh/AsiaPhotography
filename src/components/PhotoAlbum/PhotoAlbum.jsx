@@ -1,4 +1,5 @@
-import React from 'react'
+/* eslint-disable react/prop-types */
+
 import './PhotoAlbum.css'
 
 const PhotoAlbum = ({Image_Album , TiltleAlbum}) => {

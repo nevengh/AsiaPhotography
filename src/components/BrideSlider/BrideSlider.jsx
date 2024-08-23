@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import './BrideSlider.css'
 import { Carousel } from 'react-bootstrap'
 import PhotoAlbum from '../PhotoAlbum/PhotoAlbum';
