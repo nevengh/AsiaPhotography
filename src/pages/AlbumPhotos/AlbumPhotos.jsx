@@ -2,7 +2,7 @@
 import './AlbumPhotos.css'
 import SliderImages_jewelry from '../../components/SliderImages_jewelry/SliderImages_jewelry'
 import BrideSlider from '../../components/BrideSlider/BrideSlider'
-import WeddingPhotos from '../../components/weddingPhotos/weddingPhotos'
+import WeddingPhotos from '../../components/weddingPhotos/WeddingPhotos'
 
 
 const AlbumPhotos = () => {
