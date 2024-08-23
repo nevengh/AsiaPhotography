@@ -8,15 +8,15 @@
   }
   
   table {
-    width: 70%;
+    width: 70% ;
     border-collapse: collapse;
-    font-family: Arial, sans-serif;
+    /* font-family: Arial, sans-serif; */
   }
   
   th, td {
-    border: 1px solid #ccc;
+    border: 1px solid #ccc !important;
     padding: 10px;
-    text-align: center;
+    text-align: center !important;
   }
 
 
