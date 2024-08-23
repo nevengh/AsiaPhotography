@@ -8,34 +8,36 @@ const Footer = () => {
       <div className="footer-container">
         <div className="footer-section about">
           <h3>من نحن؟</h3>
-          <p>المصورات السعوديات مدى ومعياد الشمري متخصصات في مجال تصوير الأعراس.</p>
-          <p>الرياض - المملكة العربية السعودية</p>
-          <p>Email: Alshammari.Brides@gmail.com</p>
+          <p>شركة متخصصة في تصوير الزواجات والمناسبات بخبرة أكثر من 10 سنوات نحن لا
+        نلتقط لقطات مجرّدة بل نصنع من كُل لحظة جميلة لقطة مليئة بالمشاعر لتعيش
+        معكم للأبد </p>
+          <p>Dubai,United Arab Emirates</p>
+          <p>Email: example@gmail.com</p>
         </div>
 
         <div className="footer-section videos">
-          <h3>فيديوهات تهمك</h3>
+          <h3>الألبومات</h3>
           <ul>
-            <li>طريقة تصوير فيديو للزفة الأولى للعروسان</li>
-            <li>فيديو تصوير جزء من الفرست لوك لعروستنا</li>
-            <li>فيديو تصوير جزء من تجهيزات العروس في يوم زواجها</li>
+            <li><a href="#Album">صور تفاصيل اطلالة العروسين</a></li>
+            <li><a href="#Album">صور من حفل الزفاف</a></li>
+            <li><a href="#Album">صور العريس و العروس </a></li>
           </ul>
         </div>
 
         <div className="footer-section follow-us">
           <h3>تابعوا حساباتي</h3>
           <div className="social-icons">
-            <a href="https://www.snapchat.com" target="_blank" rel="noopener noreferrer">
+            <a href="#" target="_blank" rel="noopener noreferrer">
               <FaSnapchatGhost className="icon" />
             </a>
-            <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
+            <a href="#" target="_blank" rel="noopener noreferrer">
               <FaInstagram className="icon" />
             </a>
           </div>
         </div>
       </div>
       <div className="footer-bottom">
-        <p>Copyright 2020 © Mada Alshammari - CREATED BY Muharraqi Design</p>
+        <p>Copyright 2024 © Asia Albarakati</p>
       </div>
     </footer>
   );

@@ -19,7 +19,7 @@ function Header() {
 
   return (
     <div className="header">
-      <div className="navbar ">
+      <div className="ne_navbar ">
         <div className={`nav_item ${active === "home" ? "active" : ""}`}>
           <a href="#home" onClick={() => handleSetActive("home")}>
             الصفحة الرئيسية
@@ -62,8 +62,8 @@ function Header() {
             الإضافات
           </a>
         </div>
-        <div className={`nav_item ${active === "Gold_hour" ? "active" : ""}`}>
-          <a href="#Gold_hour" onClick={() => handleSetActive("Gold_hour")}>
+        <div className={`nav_item ${active === "Album" ? "active" : ""}`}>
+          <a href="#Album" onClick={() => handleSetActive("Album")}>
             الألبومات
           </a>
         </div>

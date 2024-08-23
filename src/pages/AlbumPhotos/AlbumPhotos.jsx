@@ -1,4 +1,4 @@
-import React from 'react'
+// import React from 'react'
 import './AlbumPhotos.css'
 import SliderImages_jewelry from '../../components/SliderImages_jewelry/SliderImages_jewelry'
 import BrideSlider from '../../components/BrideSlider/BrideSlider'
@@ -7,7 +7,7 @@ import WeddingPhotos from '../../components/weddingPhotos/weddingPhotos'
 
 const AlbumPhotos = () => {
     return (
-        <div className='AlbumPhotos'>
+        <div className='AlbumPhotos' id='Album'>
             <div className='main_container '>
                 <div className='HJ_TitleSection'>
                     <h6>فيما يلي قائمة ببعض خدماتنا</h6>

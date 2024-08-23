@@ -1,4 +1,4 @@
-.navbar{
+.ne_navbar{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -42,7 +42,7 @@
     cursor: pointer;
 }
   @media (max-width: 768px) {
-    .navbar{
+    .ne_navbar{
       justify-content: space-between;
       padding: 0 30px;
       
@@ -85,5 +85,10 @@
       color: #1b1b1b;
       margin-top: 10px;
       font-size: 18px;
+    }
+  }
+  @media(max-width:500px){
+    .hero .logo{
+      font-size: 35px !important;
     }
   }
